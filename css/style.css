@@ -1,0 +1,238 @@
+/* common css */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner part css start */
+
+main {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    height: 600px;
+    border-radius: 20px;
+}
+
+#banner .left {
+    width: 50%;
+    margin-left: 70px;
+}
+
+#banner .left h1 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+#banner .left .top {
+    margin-top: 50px;
+}
+
+#banner .left p {
+    width: 489px;
+    font-size: 16px;
+    margin: 40px 0;
+
+}
+
+#banner .left a {
+    padding: 15px 40px;
+    background-color: rgb(255, 56, 56);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 7px;
+    transition: background-color .5s;
+}
+
+#banner .left a:hover {
+    background-color: #fff;
+    color: rgb(49, 33, 30);
+}
+
+#banner .left a i {
+    margin-left: 15px;
+}
+
+
+#banner .right {
+    width: 50%;
+    padding: 50px 50px 0 0;
+}
+
+#banner .right img {
+    height: 100%;
+    width: 100%;
+}
+
+/* banner part css end */
+
+
+
+
+/* Blog part css start */
+
+.blog {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .navigation {
+    width: 30%;
+    height: 320px;
+    background-color: rgb(58, 133, 121);
+    border-radius: 10px;
+
+
+}
+
+.blog .navigation .left {
+    width: 100%;
+}
+
+.blog .navigation .left h3 {
+    height: 50px;
+    width: 70%;
+    background-color: #fff;
+    color: #000;
+    margin: 40px auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.blog .navigation .left h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog .navigation .left .last {
+    background-color: rgb(59, 28, 70);
+    color: #fff;
+}
+
+.blog .navigation .left .last a {
+    color: #fff;
+}
+
+.blog .content {
+    width: 67%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.blog .context {
+    width: 100%;
+    border: 1px solid rgb(195, 193, 193);
+    border-radius: 10px;
+
+}
+
+.blog .context .text {
+    padding-left: 15px;
+}
+
+.blog .context .img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.blog .context .img img {
+    width: 100%;
+}
+
+.blog .context .link {
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: grey;
+
+}
+
+.blog .context h3 {
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 15px;
+}
+
+.blog .context .icon {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.blog .context .icon i {
+    margin-right: 10px;
+}
+
+.blog .context .icon span {
+    margin-right: 20px;
+}
+
+/* Blog part css end */
+
+
+
+/* footer part css start */
+footer {
+    margin-top: 200px;
+    text-align: center;
+    background-color: #000;
+    padding: 80px 0;
+}
+
+footer h1 {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+footer hr {
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+footer .link a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(215, 215, 215);
+}
+
+footer .icon {
+    margin-top: 50px;
+}
+
+footer .icon a {
+    margin: 0 20px;
+}
+
+footer .icon a i {
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+}
+
+/* footer part css end */
