@@ -262,7 +262,7 @@ footer .icon a i {
 
 
 
-/* Responsive Css Start */
+/* Responsive Css For Tablet*/
 
 
 @media screen and (max-width:768px) {
@@ -332,4 +332,86 @@ footer .icon a i {
         margin-right: 30px;
         line-height: 20px;
     }
+}
+
+/* Responsive Css For Tablet*/
+
+
+/* Responsive Css For Mobile*/
+@media screen and (min-width:320px) and (max-width:577px) {
+    main {
+        width: auto;
+    }
+
+    #banner {
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+
+    #banner .left {
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #banner .left .top {
+        margin-top: 0;
+    }
+
+    #banner .left p {
+        margin: 40px auto;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    #banner .left a {
+        margin: 0 auto;
+    }
+
+    #banner .left h1 {
+        margin-top: 0px;
+    }
+
+    #banner .right {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+
+    .blog .navigation .left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog .navigation .left h3 {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .blog .content {
+        margin-top: 100px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn {
+        visibility: hidden;
+    }
+
+
+
+    footer .link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .link a {
+        padding-bottom: 40px;
+    }
+
 }
