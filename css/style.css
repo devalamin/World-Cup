@@ -142,7 +142,10 @@ main {
     border: 1px solid rgb(195, 193, 193);
     border-radius: 10px;
 
+
 }
+
+
 
 .blog .context .text {
     padding-left: 15px;
@@ -184,6 +187,25 @@ main {
 
 .blog .context .icon span {
     margin-right: 20px;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    visibility: hidden;
+}
+
+.btn a {
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+
+    border-radius: 10px;
+
+
 }
 
 /* Blog part css end */
@@ -236,3 +258,78 @@ footer .icon a i {
 }
 
 /* footer part css end */
+
+
+
+
+/* Responsive Css Start */
+
+
+@media screen and (max-width:768px) {
+    main {
+        width: 700px;
+    }
+
+    #banner {
+        margin-bottom: 200px;
+    }
+
+    #banner .left h1 {
+        font-size: 40px;
+        font-weight: 500px;
+    }
+
+    #banner .left p {
+        width: 300px;
+        text-overflow: ellipsis;
+    }
+
+    .blog {
+        position: relative;
+    }
+
+    .blog .navigation {
+        width: 100%;
+        background: transparent;
+        position: absolute;
+        top: -150px;
+        left: 0;
+    }
+
+    .blog .navigation .left {
+
+        display: flex;
+
+    }
+
+    .blog .navigation .left h3 {
+        border: 1px solid grey;
+        margin: 0 10px;
+    }
+
+    .blog .content {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .btn {
+        visibility: visible;
+        margin-left: -50px;
+    }
+
+    footer {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+
+    footer .link {
+        padding: 20px 0;
+    }
+
+    footer .link a {
+        margin-left: 20px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+}
