@@ -120,12 +120,12 @@ main {
     color: #000;
 }
 
-.blog .navigation .left .last {
+.blog .navigation .left .first {
     background-color: rgb(59, 28, 70);
     color: #fff;
 }
 
-.blog .navigation .left .last a {
+.blog .navigation .left .first a {
     color: #fff;
 }
 
@@ -138,11 +138,33 @@ main {
 }
 
 .blog .context {
-    width: 100%;
+    width: 70%;
     border: 1px solid rgb(195, 193, 193);
     border-radius: 10px;
+    padding: 30px;
+    height: 160px;
 
 
+}
+
+.blog .context .img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .context .img .verse {
+    margin: 0 20px;
+}
+
+
+
+.blog .context .country {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog .context .time {
+    text-align: center;
 }
 
 
@@ -397,6 +419,10 @@ footer .icon a i {
     .blog .content {
         margin-top: 100px;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog .context {
+        margin: 0 auto;
     }
 
     .btn {
